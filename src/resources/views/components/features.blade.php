@@ -1,12 +1,12 @@
 <section id="features" class="py-20 sm:py-28 px-6 bg-gray-50">
     <div class="max-w-6xl mx-auto">
-        <div class="text-center mb-16">
+        <div class="text-center mb-16" data-aos="fade-up">
             <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">FlowSyncの3つの強み</h2>
             <p class="text-gray-500 text-lg">シンプルさと高機能を両立した、次世代のタスク管理</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             {{-- 特徴1 --}}
-            <div
+            <div data-aos="fade-up" data-aos-delay="0"
                 class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                 <div class="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center mb-6">
                     <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -20,7 +20,7 @@
                 </p>
             </div>
             {{-- 特徴2 --}}
-            <div
+            <div data-aos="fade-up" data-aos-delay="100"
                 class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                 <div class="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center mb-6">
                     <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -34,7 +34,7 @@
                 </p>
             </div>
             {{-- 特徴3 --}}
-            <div
+            <div data-aos="fade-up" data-aos-delay="200"
                 class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                 <div class="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center mb-6">
                     <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -1,5 +1,5 @@
    <section class="py-20 sm:py-28 px-6">
-       <div class="max-w-3xl mx-auto text-center">
+       <div class="max-w-3xl mx-auto text-center" data-aos="fade-up">
            <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
                今すぐFlowSyncを<br class="sm:hidden">始めましょう
            </h2>

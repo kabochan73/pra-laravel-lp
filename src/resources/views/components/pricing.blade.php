@@ -1,12 +1,12 @@
 <section id="pricing" class="py-20 sm:py-28 px-6 bg-gray-50">
     <div class="max-w-6xl mx-auto">
-        <div class="text-center mb-16">
+        <div class="text-center mb-16" data-aos="fade-up">
             <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">料金プラン</h2>
             <p class="text-gray-500 text-lg">チームの規模に合わせて選べるプラン</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {{-- Free --}}
-            <div class="bg-white rounded-2xl p-8 border border-gray-200 flex flex-col">
+            <div data-aos="fade-up" data-aos-delay="0" class="bg-white rounded-2xl p-8 border border-gray-200 flex flex-col">
                 <h3 class="text-lg font-bold text-gray-900 mb-2">Free</h3>
                 <p class="text-gray-500 text-sm mb-6">個人やお試しに最適</p>
                 <div class="mb-8">
@@ -45,7 +45,7 @@
                 </a>
             </div>
             {{-- Pro --}}
-            <div
+            <div data-aos="fade-up" data-aos-delay="100"
                 class="bg-indigo-600 rounded-2xl p-8 border-2 border-indigo-600 flex flex-col relative shadow-xl shadow-indigo-200">
                 <div
                     class="absolute -top-3 left-1/2 -translate-x-1/2 bg-indigo-500 text-white text-xs font-bold px-3 py-1 rounded-full">
@@ -97,7 +97,7 @@
                 </a>
             </div>
             {{-- Enterprise --}}
-            <div class="bg-white rounded-2xl p-8 border border-gray-200 flex flex-col">
+            <div data-aos="fade-up" data-aos-delay="200" class="bg-white rounded-2xl p-8 border border-gray-200 flex flex-col">
                 <h3 class="text-lg font-bold text-gray-900 mb-2">Enterprise</h3>
                 <p class="text-gray-500 text-sm mb-6">大規模チーム向け</p>
                 <div class="mb-8">
